@@ -8,12 +8,15 @@
   * 
 
 ## Plan
-Week 8:
-- Find dataset
 Week 9:
-- 
-### Break
+- Find dataset
 Week 10:
-- Project Video Session
+- Make video
+### Break
 Week 11:
+- Project Video Session
 Week 12:
+- Work on website and explainer notebook
+Week 13:
+- Work on website and explainer notebook
+- Final touches
