@@ -5,25 +5,30 @@ Forfatter <- Maria et Lasse
 ### Introduction
 * 🚲🚲🚲 --- Biking to a cleaner future --- 🚲🚲🚲
 
+#### Skift
+
 * You read it in the paper, you hear in the news, but what can you do for a cleaner tomorrow? 
-  * Are you part of the problem or the solution? 
-  * In this project we will analyse the transition from bike to car in greater Copenhagen.
-  * Hereby examinating when we take the bike/car, the reason behind it and what influence the politicians have, all done by datasets provided from OpenData(Teknik- og miljøforvaltningen).
-  * Further more, we analyse what impact the weather have and if there exists a corralataion between weather and biking using ML on provided data from DMI.
+    - During recent years, the politicians have encouraged us to switch from cars to bikes.
+    - But sometimes, external factors can influence our choices.
+* Our project is based on a traffic dataset from the Copenhagen Municipality
+* while also using DMI data to analyze the impact from the weather, by applying Machine Learning # 20s
+
+#### Skift
 
 ### Visualisation
-* To strengthen our report and support our foundings, visualisations tools such as Bokeh and plotly are used. 
-* Here we incorporate heatmaps, daily histograms and add more plots
-  * wainting for inputs.
-* All formatted in a nicely magazine/slideshow genre. 
-* Thus providing a nice focus on the research while making the story visually interesting, in order to incapsulate the reader.
+* We aim to use heatmaps and histograms to study patterns for when and where people take either car or bike.
+#### Skift
+* All formatted in a magazine and slideshow style, to focus on the research while making the story visually interesting to the reader. # 15s
 
+#### Skift
 
 ### Metadata
-* The data is collected through 3 different data-sources, ranging from the years 2009 to 2019. 
-* The primary dataset consist of [insert rows] and the following columns[insert columns] creating a file size of approximately 12,9MB:
-* The data consist of preprocessed data, where we can easily extract relevant data for each counting spot. 
-* Each spot is counted one whole day each year, all manually done. 
+* The primary dataset contains 1077 rows and 35 columns creating a size of approximately 279kb.
+* It consists of geographical data (billede med kort) taken from a 10 year time period 
+#### Skift
+* With the overall traffic increasing each year, cars remains the dominant group, closely followed by bikes,
+* so there is still hope for biking to a cleaner future  # 25 s
+
 
 ### End - 80-90 secs
 
@@ -80,3 +85,5 @@ Forfatter <- Maria et Lasse
   * Political initiatives improving conditions(bike lanes, bike parking) for bicycling while reducing the incentive(parking slots, taxes etc) to take the car
 * We want to explore how Copenhagen has adjusted their mobility trends in order to combat the climate change 
   * and if the initiatives can be spotted in the data(have the they helped at all?)
+
+  * #Are you part of the problem or the solution? [drop]
