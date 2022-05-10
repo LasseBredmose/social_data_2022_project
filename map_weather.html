@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c89d2a78625a8a56938b4bc6827aadf4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c89d2a78625a8a56938b4bc6827aadf4" ></div>
+        
+</body>
+<script>    
+    
+            var map_c89d2a78625a8a56938b4bc6827aadf4 = L.map(
+                "map_c89d2a78625a8a56938b4bc6827aadf4",
+                {
+                    center: [55.65, 12.6],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    dpi: 500,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b9fc9ab7f05b74867433f35a1777f8bf = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c89d2a78625a8a56938b4bc6827aadf4);
+        
+    
+            var marker_0afc2733bfdb05b82e8e6aca5df32b5b = L.marker(
+                [55.614, 12.6455],
+                {"fill": true, "radius": 1.5}
+            ).addTo(map_c89d2a78625a8a56938b4bc6827aadf4);
+        
+    
+            var icon_5c44a841c5c9320602f88164fc12d17f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0afc2733bfdb05b82e8e6aca5df32b5b.setIcon(icon_5c44a841c5c9320602f88164fc12d17f);
+        
+    
+        var popup_95423dd5f6100a16d2a369142991fc67 = L.popup({"maxWidth": 180, "minWidth": 180});
+
+        
+            var html_da63aeece69c75a1fd7d8ccaaf39c32c = $(`<div id="html_da63aeece69c75a1fd7d8ccaaf39c32c" style="width: 100.0%; height: 100.0%;"><b>Copenhagen Airport</b> <br> Precipitation, Wind, Temperature</div>`)[0];
+            popup_95423dd5f6100a16d2a369142991fc67.setContent(html_da63aeece69c75a1fd7d8ccaaf39c32c);
+        
+
+        marker_0afc2733bfdb05b82e8e6aca5df32b5b.bindPopup(popup_95423dd5f6100a16d2a369142991fc67)
+        ;
+
+        
+    
+    
+            var marker_e13ab685a64308efe851dac1cfd45aec = L.marker(
+                [55.6861, 12.5439],
+                {"fill": true, "radius": 1.5}
+            ).addTo(map_c89d2a78625a8a56938b4bc6827aadf4);
+        
+    
+            var icon_1d5f9755a164c38a95a467230421ddde = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e13ab685a64308efe851dac1cfd45aec.setIcon(icon_1d5f9755a164c38a95a467230421ddde);
+        
+    
+        var popup_a2c90df817b3750e2bc327490ba6df3c = L.popup({"maxWidth": 150, "minWidth": 150});
+
+        
+            var html_107055fc029c9ef39e7ea202e460f8d9 = $(`<div id="html_107055fc029c9ef39e7ea202e460f8d9" style="width: 100.0%; height: 100.0%;"><b>Landbohøjskolen</b> <br> Temperature</div>`)[0];
+            popup_a2c90df817b3750e2bc327490ba6df3c.setContent(html_107055fc029c9ef39e7ea202e460f8d9);
+        
+
+        marker_e13ab685a64308efe851dac1cfd45aec.bindPopup(popup_a2c90df817b3750e2bc327490ba6df3c)
+        ;
+
+        
+    
+    
+            var marker_8e2d1ad16aed1e95b16856d9b107632a = L.marker(
+                [55.6877, 12.5739],
+                {"fill": true, "radius": 1.5}
+            ).addTo(map_c89d2a78625a8a56938b4bc6827aadf4);
+        
+    
+            var icon_bc0b73d91a0875a358c00fe3a6848528 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8e2d1ad16aed1e95b16856d9b107632a.setIcon(icon_bc0b73d91a0875a358c00fe3a6848528);
+        
+    
+        var popup_f0bacffca363772d05c044562304350a = L.popup({"maxWidth": 160, "minWidth": 160});
+
+        
+            var html_354c70bf40dc10b6acf8dafa21865266 = $(`<div id="html_354c70bf40dc10b6acf8dafa21865266" style="width: 100.0%; height: 100.0%;"><b>Botanical Garden</b> <br> Precipitation</div>`)[0];
+            popup_f0bacffca363772d05c044562304350a.setContent(html_354c70bf40dc10b6acf8dafa21865266);
+        
+
+        marker_8e2d1ad16aed1e95b16856d9b107632a.bindPopup(popup_f0bacffca363772d05c044562304350a)
+        ;
+
+        
+    
+</script>
